@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import MainPageComp from './Components/Mainpage';
+import YHNComp from './Components/YHN';
 
 function App() {
   return (
     <div className="App">
-      <MainPageComp />
+      <YHNComp />
     </div>
   );
 }

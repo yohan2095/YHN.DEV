@@ -1,10 +1,10 @@
 import { Col, Row } from 'react-grid-system';
 import Button from 'react-bootstrap/Button';
-import fullstack from '../Images/fullstack.logo.png'
-import meanstack from '../Images/meanstack.logo.png'
-import mernstack from '../Images/mernstack.logo.png'
+import fullstack from '../../Images/fullstack.logo.png'
+import meanstack from '../../Images/meanstack.logo.png'
+import mernstack from '../../Images/mernstack.logo.png'
 
-function PortfolioComp() {
+function PortfolioHEComp() {
     return (
       <div className="App">
 
@@ -66,4 +66,4 @@ function PortfolioComp() {
     );
   }
   
-  export default PortfolioComp;
+  export default PortfolioHEComp;

@@ -16,7 +16,7 @@ function FooterComp() {
             <ReactBootStrap.Container>
             <ReactBootStrap.Nav.Link href="https://github.com/yohan2095"><img id="icons" src={github} alt="Github Logo" /></ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link href="https://www.linkedin.com/in/yohan-arejouane-62752b104/"><img id="icons" src={linkedin} alt="LinkedIn Logo" /> </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="https://www.instagram.com/yohan.77/"><img id="icons" src={instagram} alt="Instagram Logo" /> </ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link href="https://www.instagram.com/yhn.dev/"><img id="icons" src={instagram} alt="Instagram Logo" /> </ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link href="https://wa.me/972587197075?text=Welcome%20to%20my%20livechat"><img id="icons" src={whatsapp} alt="Whatsapp Logo" /> </ReactBootStrap.Nav.Link>
             </ReactBootStrap.Container>
         </ReactBootStrap.Navbar>

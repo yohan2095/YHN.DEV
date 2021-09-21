@@ -1,8 +1,8 @@
 import { Col, Row } from 'react-grid-system';
-import scrolldown from '../Images/icons/scrolldown.png';
-import YHN300 from '../Images/YHN300.png';
+import scrolldown from '../../Images/icons/scrolldown.png';
+import YHN300 from '../../Images/YHN300.png';
 
-function WelcomeComp() {
+function WelcomeHEComp() {
 
     
 
@@ -13,10 +13,10 @@ function WelcomeComp() {
               
               <Row>
                   <Col lg={12}>
-                  <h1 style={{fontSize : '300%'}}>Yohan Arejouane,</h1>
+                  <h1 style={{fontSize : '300%'}}>יואן ארג׳ואן</h1>
                   
-                  <h1>Full Stack Developer</h1>
-
+                  <h1>מפתח פול סטאק</h1>
+                  
                   <img src={YHN300} alt="YHN Logo" />
                   </Col>
               </Row>
@@ -36,4 +36,4 @@ function WelcomeComp() {
     );
   }
   
-  export default WelcomeComp;
+  export default WelcomeHEComp;

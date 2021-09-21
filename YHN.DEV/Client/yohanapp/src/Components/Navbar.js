@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import HomeComp from './Home';
 import PortfolioComp from './Portfolio';
 
+
 function NavBarComp() {
 
   const [page, setPage] = useState("./Home");
@@ -22,7 +23,7 @@ function NavBarComp() {
                 <ReactBootStrap.NavDropdown title="More about me" id="basic-nav-dropdown">
                   <ReactBootStrap.NavDropdown.Item href="https://www.linkedin.com/in/yohan-arejouane-62752b104/">LinkedIn</ReactBootStrap.NavDropdown.Item>
                   <ReactBootStrap.NavDropdown.Item href="https://github.com/yohan2095">Github</ReactBootStrap.NavDropdown.Item>
-                  <ReactBootStrap.NavDropdown.Item href="https://www.instagram.com/yohan.77/">Instagram</ReactBootStrap.NavDropdown.Item>
+                  <ReactBootStrap.NavDropdown.Item href="https://www.instagram.com/yhn.dev/">Instagram</ReactBootStrap.NavDropdown.Item>
                   <ReactBootStrap.NavDropdown.Divider />
                   <ReactBootStrap.NavDropdown.Item href="#action/3.4">CV</ReactBootStrap.NavDropdown.Item>
                 </ReactBootStrap.NavDropdown>
