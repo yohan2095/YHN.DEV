@@ -1,6 +1,6 @@
 import WelcomeHEComp from './WelcomeHE';
-import ProfileHEComp from './ProfileHE';
 import ServiceHEComp from './ServiceHE';
+import ContactHEComp from './ContactHE';
 
 function HomeHEComp() {
 
@@ -9,11 +9,9 @@ function HomeHEComp() {
 
           <WelcomeHEComp />
 
-          <br></br><br/>
-
-          <ProfileHEComp />
-
           <ServiceHEComp />
+
+          <ContactHEComp />
 
       </div>
     );

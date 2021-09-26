@@ -1,6 +1,6 @@
 import WelcomeComp from './Welcome';
 import ServiceComp from './Service';
-import ProfileComp from './Profile';
+import ContactComp from './Contact';
 
 function HomeComp() {
     return (
@@ -8,11 +8,9 @@ function HomeComp() {
 
           <WelcomeComp />
 
-          <br></br><br/>
-
-          <ProfileComp />          
-
           <ServiceComp />
+
+          <ContactComp />
 
       </div>
     );

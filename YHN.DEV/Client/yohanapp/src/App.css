@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #152c5f;
+  background: rgb(36, 36, 36)
 }
 
 .App-logo {
@@ -48,14 +48,14 @@
 {
   background-color: whitesmoke;
   border-radius: 1%;
-  
-  
+  color :rgb(36, 36, 36);
 }
 
 #welcome
 {
   height: 100vh;
-  background-color: rgb(15, 19, 51);
+  width: auto;
+  background-color: rgb(36, 36, 36);
   color : whitesmoke;
   display: flex;
   justify-content: center;
@@ -93,8 +93,18 @@
 #YHN
 {
   height: 100vh;
-  background-color: rgb(15, 19, 51);
-  color : whitesmoke;
+  background-color: whitesmoke;
+  color : rgb(36, 36, 36);
+}
+
+
+#scrollShow
+{
+  background-image: url(/src/Images/japan.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 

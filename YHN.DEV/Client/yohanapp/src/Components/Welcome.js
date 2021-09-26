@@ -1,6 +1,6 @@
 import { Col, Row } from 'react-grid-system';
-import scrolldown from '../Images/icons/scrolldown.png';
-import YHN300 from '../Images/YHN300.png';
+import scrolldown from '../Images/icons/scrolldown.svg';
+import YHNL from '../Images/YHN.L.logo.png';
 
 function WelcomeComp() {
 
@@ -17,18 +17,18 @@ function WelcomeComp() {
                   
                   <h1>Full Stack Developer</h1>
 
-                  <img src={YHN300} alt="YHN Logo" />
+                  <img style={{ height : "30vh", width : 'auto' }} src={YHNL} alt="YHN Logo" />
                   </Col>
               </Row>
               </div>
 
 
               <div class="sub_div">
-              <a class="nav-link" href="#scrollspyHeading"><img style={{ color : 'whitesmoke'}} alt="arrow down" class="scrollD" src={scrolldown} /></a>
+              <a class="nav-link" href="#scroll"><img style={{ color : 'whitesmoke'}} alt="arrow down" class="scrollD" src={scrolldown} /></a>
 
               <br />
 
-              <div id="scrollspyHeading"></div>
+              <div id="scroll"></div>
               </div>
               
 

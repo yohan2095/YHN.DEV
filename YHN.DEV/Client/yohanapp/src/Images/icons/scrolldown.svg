@@ -1,1 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="122.88px" height="80.593px" viewBox="0 0 122.88 80.593" enable-background="new 0 0 122.88 80.593" xml:space="preserve"><g><polygon points="122.88,0 122.88,30.82 61.44,80.593 0,30.82 0,0 61.44,49.772 122.88,0"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50pt" height="50pt" viewBox="0 0 50 50" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 5.34375 12.945312 C 4.265625 11.871094 2.546875 11.898438 1.5 13 C 0.453125 14.097656 0.476562 15.863281 1.550781 16.9375 L 23.195312 38.441406 L 25.089844 36.449219 L 23.195312 38.453125 C 24.277344 39.523438 26 39.496094 27.046875 38.390625 C 27.078125 38.359375 27.105469 38.324219 27.132812 38.292969 L 48.445312 16.9375 C 49.523438 15.863281 49.546875 14.097656 48.5 13 C 47.453125 11.898438 45.730469 11.867188 44.65625 12.945312 L 25.082031 32.5625 Z M 5.34375 12.945312 "/>
+</g>
+</svg>

@@ -22,18 +22,27 @@ import location from '../Images/icons/location.svg'
 import technionlogo from '../Images/technion.logo.png'
 
 import { Col, Row } from 'react-grid-system';
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 
 
 function ProfileComp() {
 
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
 
     return (
-      <div className="App">
+      <div className="App" style={{ backgroundColor : 'transparent' }} >
 
-         <div class="container">
+         <div class="container" style={{ backgroundColor : 'rgb(36,36,36)', opacity : '0.9' }}>
+           <br/>
               <Row>
-                  <Col md={5}>
+                  <Col md={5} data-aos="fade-up-right" >
                       <img id="profilePic" className="App" src={profilepic} alt="Me" />
                       <h3 style={{color : 'white'}}>Yohan Arejouane</h3>
                       <h4 style={{color : 'white'}}>Full Stack Developer</h4>
@@ -43,7 +52,7 @@ function ProfileComp() {
                   
 
 
-                  <Col md={7}>
+                  <Col md={7} data-aos="fade-up-left">
                       <div id="StackCont">
                         <div class="container" >
                             <h1>My Stack</h1> <br/>
@@ -75,7 +84,7 @@ function ProfileComp() {
                       <Row>
 
                               <Col md={7} id="StackCont">
-                                  <h3>We can speak in:</h3>
+                                  <h3>We can speak</h3>
                                   <br/>
                                   <img id="icons" style={{ height : '40%', width : 'auto' }} src={english} alt="Languages Logo" />
                                   <img id="icons" style={{ paddingLeft : '30px', height : '40%', width : 'auto'}} src={hebrew} alt="Languages Logo" />
@@ -89,7 +98,7 @@ function ProfileComp() {
                               
                           
                               <Col sm={4}  id="StackCont">
-                                  <h3>Certified by:</h3>
+                                  <h3>Certified by</h3>
                                   <img src={technionlogo} alt="Technion Logo" style={{ width : '60%', height : 'auto'}} />
                               </Col>
                         
@@ -99,6 +108,9 @@ function ProfileComp() {
                   </Col>
               </Row>
           </div>
+
+
+          
           
 
       </div>

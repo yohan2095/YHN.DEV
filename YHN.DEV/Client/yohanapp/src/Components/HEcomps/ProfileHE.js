@@ -22,28 +22,37 @@ import location from '../../Images/icons/location.svg'
 import technionlogo from '../../Images/technion.logo.png'
 
 import { Col, Row } from 'react-grid-system';
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 
 
 function ProfileHEComp() {
 
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
 
     return (
-      <div className="App">
+      <div className="App" style={{ backgroundColor : 'transparent' }} >
 
-         <div class="container">
+         <div class="container" style={{ backgroundColor : 'rgb(36,36,36)', opacity : '0.9' }}>
+           <br/>
               <Row>
-              <Col md={5}>
+                  <Col md={5} data-aos="fade-up-right" >
                       <img id="profilePic" className="App" src={profilepic} alt="Me" />
                       <h3 style={{color : 'white'}}>יואן ארג׳ואן</h3>
-                      <h4 style={{color : 'white'}}>מפתח פול סטאק</h4>
+                      <h4 style={{color : 'white'}}>Fמפתח פול סטאק</h4>
                       <img style={{  height : '10%', width : 'auto'}} src={location} alt="Location" />
                       <h4 style={{color : 'white'}}>תל אביב, ישראל</h4> 
-               </Col>
+                  </Col>
                   
 
 
-                  <Col md={7}>
+                  <Col md={7} data-aos="fade-up-left">
                       <div id="StackCont">
                         <div class="container" >
                             <h1>הסטאק שלי</h1> <br/>
@@ -99,6 +108,9 @@ function ProfileHEComp() {
                   </Col>
               </Row>
           </div>
+
+
+          
           
 
       </div>
