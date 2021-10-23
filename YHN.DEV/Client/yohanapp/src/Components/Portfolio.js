@@ -3,12 +3,14 @@ import Button from 'react-bootstrap/Button';
 import fullstack from '../Images/fullstack.logo.png'
 import meanstack from '../Images/meanstack.logo.png'
 import mernstack from '../Images/mernstack.logo.png'
+import line from '../Images/line.png'
 
 function PortfolioComp() {
     return (
       <div className="App">
 
           <h1 style={{color : 'white'}}>Portfolio</h1>
+
 
           <br></br>
 
@@ -23,9 +25,7 @@ function PortfolioComp() {
                       </a>
                    </Col>  
               </Row>
-              <Row>
-                  <Col xl={12} style={{color : 'white'}}>_________________________________________________________</Col>
-              </Row>
+              <img src={line} alt="line" style={{ height : 'auto', width : '90%', margin : '2%' }} ></img>
               <br></br>
               <Row>
               <Col lg={6}><img src={meanstack} alt="Mean Stack Logo" /></Col>
@@ -37,9 +37,7 @@ function PortfolioComp() {
                       </a>
                   </Col>
               </Row>
-              <Row>
-                  <Col xl={12} style={{color : 'white'}}>_________________________________________________________</Col>
-              </Row>
+              <img src={line} alt="line" style={{ height : 'auto', width : '90%', margin : '2%' }} ></img>
               <br></br>
               <Row>
                   <Col lg={6}><img src={mernstack} alt="Mern Stack Logo" /></Col>

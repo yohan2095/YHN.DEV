@@ -1,4 +1,3 @@
-import WelcomeHEComp from './WelcomeHE';
 import ServiceHEComp from './ServiceHE';
 import ContactHEComp from './ContactHE';
 
@@ -6,12 +5,10 @@ function HomeHEComp() {
 
     return (
       <div className="App">
+        
+        <ServiceHEComp />
 
-          <WelcomeHEComp />
-
-          <ServiceHEComp />
-
-          <ContactHEComp />
+        <ContactHEComp />
 
       </div>
     );

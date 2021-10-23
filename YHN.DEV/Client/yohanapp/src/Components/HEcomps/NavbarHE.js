@@ -11,7 +11,7 @@ function NavBarHEComp() {
     return (
       <div className="App">
 
-        <ReactBootStrap.Navbar bg="light" expand="lg" sticky="top">
+        <ReactBootStrap.Navbar className="color-nav" variant="dark" expand="lg" sticky="top">
           <ReactBootStrap.Container>
             <ReactBootStrap.Navbar.Brand onClick={() => setPage("./HomeHE")}>YHN.DEV</ReactBootStrap.Navbar.Brand>
             <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />

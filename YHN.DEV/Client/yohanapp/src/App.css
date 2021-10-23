@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: rgb(36, 36, 36)
+  background: steelblue;
 }
 
 .App-logo {
@@ -44,11 +44,22 @@
   border-radius: 50%;
 }
 
-#StackCont
+#HeaderCont
 {
-  background-color: whitesmoke;
-  border-radius: 1%;
-  color :rgb(36, 36, 36);
+  background-color: steelblue;
+  border-radius: 0%;
+  color : whitesmoke;
+  border-style: solid;
+  border-color: steelblue;
+}
+
+#ContentCont
+{
+  background-color: transparent;
+  border-radius: 0%;
+  color : steelblue;
+  border-style: solid;
+  border-color: steelblue;
 }
 
 #welcome
@@ -93,8 +104,9 @@
 #YHN
 {
   height: 100vh;
-  background-color: whitesmoke;
-  color : rgb(36, 36, 36);
+  width: 100vw;
+  background-color: steelblue;
+  color : whitesmoke;
 }
 
 
@@ -107,4 +119,7 @@
   background-attachment: fixed;
 }
 
-
+.color-nav
+{
+  background-color: steelblue;
+}

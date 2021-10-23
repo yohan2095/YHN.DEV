@@ -29,22 +29,22 @@ function LanguageSelectorComp() {
 
               <Row>
                   <Col xl={12}>
-                       <h1><img style={{ height : "30vh", width : 'auto' }} src={YHND} alt="YHN Logo" /></h1>
+                       <h1><img style={{ height : "auto", width : '50%' }} src={YHND} alt="YHN Logo" /></h1>
                   </Col>
               </Row>       
               
               <Row>
-                  <Col sm={5}></Col>
-                  <Col lg={1}>
+                  <Col sm={4}></Col>
+                  <Col lg={2}>
                       <h2>English</h2>
                       <h1><img id="icons" src={english} alt="English" onClick={slctEN} /></h1>
                   </Col>
 
-                  <Col lg={1}>
+                  <Col lg={2}>
                       <h2>Hebrew</h2>
                        <h1><img id="icons" src={hebrew} alt="Hebrew" onClick={slctHE} /></h1>
                   </Col>
-                  <Col sm={5}></Col>
+                  <Col sm={4}></Col>
               </Row>
 
               <br/>

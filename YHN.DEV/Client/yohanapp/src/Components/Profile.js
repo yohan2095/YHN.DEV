@@ -13,100 +13,73 @@ import mongodb from '../Images/icons/mongodb.svg'
 import sql from '../Images/icons/sql.svg'
 import firebase from '../Images/icons/firebase.svg'
 
-import english from '../Images/icons/english.svg'
-import french from '../Images/icons/french.svg'
-import hebrew from '../Images/icons/hebrew.svg'
-
 import profilepic from '../Images/yohan.profile.png'
-import location from '../Images/icons/location.svg'
-import technionlogo from '../Images/technion.logo.png'
+import line from '../Images/line.png'
 
 import { Col, Row } from 'react-grid-system';
-import React, { useEffect } from "react";
-import AOS from 'aos';
-import "aos/dist/aos.css";
 
 
 
 function ProfileComp() {
 
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
-
 
     return (
       <div className="App" style={{ backgroundColor : 'transparent' }} >
 
-         <div class="container" style={{ backgroundColor : 'rgb(36,36,36)', opacity : '0.9' }}>
+         <div class="container" style={{ backgroundColor : 'transparent', opacity : '1' }}>
            <br/>
               <Row>
-                  <Col md={5} data-aos="fade-up-right" >
-                      <img id="profilePic" className="App" src={profilepic} alt="Me" />
-                      <h3 style={{color : 'white'}}>Yohan Arejouane</h3>
-                      <h4 style={{color : 'white'}}>Full Stack Developer</h4>
-                      <img style={{  height : '10%', width : 'auto'}} src={location} alt="Location" />
-                      <h4 style={{color : 'white'}}>Tel Aviv, Israel</h4> 
+                  <Col md={2}>
+                      <img id="profilePic" className="App" src={profilepic} style={{  height : '80%', width : 'auto'}} alt="Me" />
                   </Col>
                   
 
 
-                  <Col md={7} data-aos="fade-up-left">
-                      <div id="StackCont">
-                        <div class="container" >
-                            <h1>My Stack</h1> <br/>
-                          <Row>
-                            <Col md={12}>
-                                <img id="icons" src={html} alt="Stack Client Logo" /> 
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={css} alt="Stack Client Logo" /> 
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={javascript} alt="Stack Client Logo" /> 
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={typescript} alt="Stack Client Logo" /> 
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={react} alt="Stack Client Logo" /> 
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={angular} alt="Stack Client Logo" /> 
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={csharp} alt="Stack Client Logo" /> 
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={node} alt="Stack Client Logo" />
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={graphql} alt="Stack Client Logo" />
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={express} alt="Stack Client Logo" />
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={dotnet} alt="Stack Client Logo" /> 
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={sql} alt="Stack Client Logo" />
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={mongodb} alt="Stack Client Logo" />
-                                <img id="icons" style={{ paddingLeft : '30px'}} src={firebase} alt="Stack Client Logo" />
-                            </Col>
-                          </Row><br/>
-                        </div>
-                        
-                      </div>
-                      <br></br>
-
+                  <Col md={10}>
+                      <div id="HeaderCont">
+                        <div class="container">
+                            <h1>Yohan Arejouane</h1>
+                            <h1>Full Stack Developer</h1>
+                        </div></div>
                       
-                      <div class="container">
-                      <Row>
-
-                              <Col md={7} id="StackCont">
-                                  <h3>We can speak</h3>
-                                  <br/>
-                                  <img id="icons" style={{ height : '40%', width : 'auto' }} src={english} alt="Languages Logo" />
-                                  <img id="icons" style={{ paddingLeft : '30px', height : '40%', width : 'auto'}} src={hebrew} alt="Languages Logo" />
-                                  <img id="icons" style={{ paddingLeft : '30px', height : '40%', width : 'auto'}} src={french} alt="Languages Logo" />
-                                  <br/>
-                              </Col>
-
-                              <Col sm={1}>
-                                  <br/>
-                              </Col>
-                              
-                          
-                              <Col sm={4}  id="StackCont">
-                                  <h3>Certified by</h3>
-                                  <img src={technionlogo} alt="Technion Logo" style={{ width : '60%', height : 'auto'}} />
-                              </Col>
-                        
-                       </Row>
-                       <br/>
-                       </div>
                   </Col>
               </Row>
+
+              <Row>
+
+                <Col md={6}>
+                  <div id="ContentCont" style={{ height : '102%' }} >
+                    <h1>Bio</h1>
+                    <p style={{ fontSize : '21px', margin : '3%' }}>Technion Certified Full Stack Developer, I create Web Sites and Web Apps from scratch using the most advanced Technologies like "React" and "Angular".
+                    <br></br>I develop both Front-End and Back-End sides including Data Bases.
+                    </p>
+                  </div>
+                </Col>
+
+                <Col md={6}>
+                  <div id="ContentCont" style={{ height : '102%' }} >
+                  <h1>My Stack</h1>
+                  <img id="icons" src={html} alt="Stack Client Logo" /> 
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={css} alt="Stack Client Logo" /> 
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={javascript} alt="Stack Client Logo" /> 
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={typescript} alt="Stack Client Logo" /> 
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={react} alt="Stack Client Logo" /> 
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={angular} alt="Stack Client Logo" /> 
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={csharp} alt="Stack Client Logo" /> 
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={node} alt="Stack Client Logo" />
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={graphql} alt="Stack Client Logo" />
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={express} alt="Stack Client Logo" />
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={dotnet} alt="Stack Client Logo" /> 
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={sql} alt="Stack Client Logo" />
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={mongodb} alt="Stack Client Logo" />
+                  <img id="icons" style={{ paddingLeft : '30px'}} src={firebase} alt="Stack Client Logo" /></div>
+                </Col>
+
+
+                
+              </Row>
+
+              <img src={line} alt="line" style={{ height : 'auto', width : '90%', margin : '2%' }} ></img>
           </div>
 
 
