@@ -8,6 +8,7 @@ import fast from '../../Images/icons/fast.svg'
 import writeme from '../../Images/icons/writeme.svg'
 import offer from '../../Images/icons/offer.svg'
 import ProfileHEComp from './ProfileHE';
+import wait from '../../Images/icons/wait.svg'
 
 
 
@@ -23,7 +24,7 @@ function ServiceHEComp() {
 
             <ProfileHEComp />
 
-         <h1 style={{ color : 'steelblue' }} >היישומים האינטרנטיים שלי</h1>
+         <h1 style={{ color : 'whitesmoke' }} >היישומים האינטרנטיים שלי</h1>
             
 
          <br/>
@@ -72,10 +73,8 @@ function ServiceHEComp() {
                  </Col>
                  <Col sm={4}>
                  <h2>המתן לטיפול בפנייה</h2>
-                 <br/>
-                 <h3>24H</h3>
-                 <ReactBootStrap.Spinner animation="border" size="xl" />
-                 </Col>
+                   <img src={wait} alt="wait" style={{ margin : '3%', height : 'auto', width : '10vw' }} />
+                   </Col>
                  <Col sm={4}>
                  <h2>קבל הצעה מפורטת</h2>
                  <img src={offer} alt="responsive" style={{ margin : '3%', height : 'auto', width : '10vw' }} />

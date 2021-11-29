@@ -10,15 +10,15 @@ function ContactHEComp() {
     return (
       <div className="App">
         
-          <div class="container">
+        <div class="container">
      <div>
-     <h2 style={{ color : 'whitesmoke' }} >אם אתם צריכים אותי</h2>
-     <ReactBootStrap.Card>
-      <ReactBootStrap.Card.Header>פנו אליי</ReactBootStrap.Card.Header>
+     <h2 style={{ color : '#404040' }} >אם אתם צריכים אותי</h2>
+     <ReactBootStrap.Card bg="dark">
+      <ReactBootStrap.Card.Header></ReactBootStrap.Card.Header>
         <ReactBootStrap.Card.Body>
           <ReactBootStrap.Card.Text>
           <br/>
-          <img src={email} alt="email" id="icons"></img> <p style={{ fontSize : '30px', color : 'steelblue' }} >yohan@yhn.dev</p>
+          <img src={email} alt="email" id="icons"></img> <p style={{ fontSize : '30px', color : 'whitesmoke' }} >yohan@yhn.dev</p>
           <br/><br/>
           <a href="https://wa.me/972587197075?text=Welcome%20to%20my%20livechat"><img id="icons" src={whatsapp} alt="Whatsapp Logo" /></a>
           <a href="https://www.linkedin.com/in/yohan-arejouane-62752b104/"><img id="icons" style={{paddingLeft : '30px'}} src={linkedin} alt="LinkedIn Logo" /></a>

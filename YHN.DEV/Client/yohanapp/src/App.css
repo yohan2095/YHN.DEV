@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: steelblue;
+  background: #001933;
 }
 
 .App-logo {
@@ -46,20 +46,19 @@
 
 #HeaderCont
 {
-  background-color: steelblue;
   border-radius: 0%;
   color : whitesmoke;
   border-style: solid;
-  border-color: steelblue;
+  border-color: transparent;
 }
 
 #ContentCont
 {
   background-color: transparent;
   border-radius: 0%;
-  color : steelblue;
+  color : whitesmoke;
   border-style: solid;
-  border-color: steelblue;
+  border-color: transparent;
 }
 
 #welcome
@@ -105,14 +104,14 @@
 {
   height: 100vh;
   width: 100vw;
-  background-color: steelblue;
-  color : whitesmoke;
+  background-color: #001933;
+  color : aquamarine;
 }
 
 
 #scrollShow
 {
-  background-image: url(/src/Images/japan.jpeg);
+  background-color: #001933;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -121,5 +120,10 @@
 
 .color-nav
 {
-  background-color: steelblue;
+  background-color: #001933;
 }
+
+.nav-link {
+  color: whitesmoke !important;
+  }
+

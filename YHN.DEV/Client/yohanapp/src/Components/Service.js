@@ -1,5 +1,4 @@
 import { Col, Row } from 'react-grid-system';
-import * as ReactBootStrap from 'react-bootstrap';
 
 import responsive from '../Images/icons/responsive.svg'
 import ux from '../Images/icons/ux.svg'
@@ -8,6 +7,8 @@ import fast from '../Images/icons/fast.svg'
 import writeme from '../Images/icons/writeme.svg'
 import offer from '../Images/icons/offer.svg'
 import ProfileComp from './Profile';
+import wait from '../Images/icons/wait.svg'
+
 
 
 
@@ -23,7 +24,7 @@ function ServiceComp() {
 
               <ProfileComp />
 
-           <h1 style={{ color : 'steelblue' }} >My Web Apps are:</h1>
+           <h1 style={{ color : 'whitesmoke' }} >My Web Apps are:</h1>
               
 
            <br/>
@@ -73,9 +74,7 @@ function ServiceComp() {
                    </Col>
                    <Col sm={4}>
                    <h2>Wait until treatment</h2>
-                   <br/>
-                   <h3>24H</h3>
-                   <ReactBootStrap.Spinner animation="border" size="xl" />
+                   <img src={wait} alt="wait" style={{ margin : '3%', height : 'auto', width : '10vw' }} />
                    </Col>
                    <Col sm={4}>
                    <h2>Receive a detailed offer</h2>

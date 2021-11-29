@@ -9,9 +9,9 @@ function FooterComp() {
     return (
       <div className="App">
 
-        <ReactBootStrap.Navbar variant="light" bg="light" sticky="bottom">
+        <ReactBootStrap.Navbar variant="light" className="color-nav" sticky="bottom">
           <ReactBootStrap.Container>
-            <ReactBootStrap.Navbar.Brand href="#" style={{ color : 'steelblue' }} >YHN.DEV</ReactBootStrap.Navbar.Brand>
+            <ReactBootStrap.Navbar.Brand href="#" style={{ color : 'whitesmoke' }} >YHN.DEV</ReactBootStrap.Navbar.Brand>
             </ReactBootStrap.Container>
             <ReactBootStrap.Container>
             <ReactBootStrap.Nav.Link href="https://github.com/yohan2095"><img id="icons" src={github} alt="Github Logo" /></ReactBootStrap.Nav.Link>

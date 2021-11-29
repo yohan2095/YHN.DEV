@@ -42,7 +42,7 @@ function PortfolioHEComp() {
             <Row>
                 <Col lg={6}><img src={mernstack} alt="Mern Stack Logo" /></Col>
                 <Col md={6} style={{color : 'white'}}>
-                <h4>Mean-Stack Project</h4>
+                <h4>Mern-Stack Project</h4>
                     <p>This is my first MERN Stack project which is also for my studies at the Technion. This the the last project i'm uploading that is related with my studies. For this project i have to create a Movie Streaming Platform (Not including any video player). This is a platform with movies references i took from https://www.tvmaze.com/api. As a member you can browse trough all the movies added to the DataBase, subscribe to the one you saw and also delete them. You can also modify your own details as a Member. As a 'User' you can delete members, create, delete, and edit Movies. There is a Log-In system included for Users with special allowance.
 
                     I will update about it soon...</p>
