@@ -1,0 +1,22 @@
+.mainpage {
+    width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media screen and (max-width: 601px) {
+    .mainpage {
+        width: 430px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media screen and (max-width: 441px) {
+    .mainpage {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

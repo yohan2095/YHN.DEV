@@ -1,0 +1,156 @@
+.intro {
+    height: 800px;
+}
+
+@media screen and (max-width: 601px) {
+    .intro {
+        height: 1000px;
+    }
+  }
+
+.intro_index {
+    color: #ccff15;
+    font-size: 20px;
+}
+
+.intro_left {
+    padding-right: 40%;
+}
+
+@media screen and (max-width: 601px) {
+    .intro_left {
+        padding-right: 0;
+    }
+}
+
+.intro_title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20vh;
+    text-align: left;
+}
+
+.intro_description {
+    color : lightskyblue;
+    text-align: left;
+    font-size: 14px;
+    
+}
+
+.intro_stack {
+    text-align: center !important;
+    margin-top: 15px;
+}
+
+.intro_descriptionReact {
+    height: 35px;
+    width: auto;
+    margin: 3%;
+}
+.intro_descriptionReact:hover {
+    transform: scale(1.3);
+}
+
+.intro_descriptionNode {
+    height: 35px;
+    width: auto;
+    margin: 3%;
+}
+.intro_descriptionNode:hover {
+    transform: scale(1.3);
+}
+
+.intro_descriptionExpress {
+    height: 30px;
+    width: auto;
+    margin: 3%;
+}
+.intro_descriptionExpress:hover {
+    transform: scale(1.3);
+}
+
+.intro_descriptionMongodb {
+    height: 35px;
+    width: auto;
+    margin: 3%;
+}
+.intro_descriptionMongodb:hover {
+    transform: scale(1.3);
+}
+
+.intro_descriptionFirebase {
+    height: 35px;
+    width: auto;
+    margin: 3%;
+}
+.intro_descriptionFirebase:hover {
+    transform: scale(1.3);
+}
+.intro_descriptionHtml {
+    height: 35px;
+    width: auto;
+    margin: 3%;
+}
+.intro_descriptionHtml:hover {
+    transform: scale(1.3);
+}
+.intro_descriptionJavascript {
+    height: 35px;
+    width: auto;
+    margin: 3%;
+}
+.intro_descriptionJavascript:hover {
+    transform: scale(1.3);
+}
+.intro_descriptionCss {
+    height: 35px;
+    width: auto;
+    margin: 3%;
+}
+.intro_descriptionCss:hover {
+    transform: scale(1.3);
+}
+
+.intro_profile {
+    position: relative;
+    right: 125px;
+    top: 240px;
+    background-color: transparent;
+}
+
+
+
+.intro_profilepic {
+    border-radius: 20px;
+    border: solid #ccff15;
+    background-color: #ccff15;
+    filter:opacity(0.8);
+}
+
+.intro_profileLocation {
+    height: 30px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.intro_profileLocationText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.intro_right {
+    position: relative;
+    bottom: 420px;
+    left: 70%;
+    background-color: transparent;
+    width: 160px;
+}
+
+@media screen and (max-width: 850px) {
+    .intro_right {
+      position: relative;
+      bottom: 0px;
+      left: 33%;
+
+    }
+  }

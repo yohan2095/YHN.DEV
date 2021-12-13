@@ -1,0 +1,86 @@
+.mywork {
+    height: 800px;
+}
+
+@media screen and (max-width: 601px) {
+    .mywork {
+        height: 1750px;
+    }
+}
+
+.mywork_title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20vh;
+    text-align: left;
+}
+
+.mywork_index {
+    color: #ccff15;
+    font-size: 20px;
+}
+
+.mywork_project {
+    background-color: #1a293a;
+    border: solid 1px transparent;
+    height: 250px;
+    text-align: left;
+    padding: 15px;
+}
+
+.mywork_project:hover {
+    transform: scale(1.1);
+    background-color: steelblue;
+}
+
+.mywork_project > h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 1%;
+    color: #ccff15;
+    background-color: transparent;
+}
+
+.mywork_projectDescription {
+    font-size: 13px;
+    margin: 1%;
+    background-color: transparent;
+}
+
+.mywork_projectStack {
+    font-size: 12px;
+    margin: 1%;
+    background-color: transparent;
+    color: lightskyblue;
+    padding-top: 50px;
+}
+
+.mywork_project:hover > .mywork_projectStack {
+    color: #1a2330;
+}
+
+.mywork_button {
+    text-align: right;
+    margin: 1%;
+    position: relative;
+    top: -25px;
+    background-color: transparent !important;
+}
+
+.mywork_buttonGithub {
+    margin: 1%;
+    background-color: transparent;
+}
+
+.mywork_buttonLink {
+    margin: 1%;
+    background-color: transparent;
+}
+
+.mywork_buttonGithub:hover {
+    color: #ccff15;
+}
+
+.mywork_buttonLink:hover {
+    color: #ccff15;
+}

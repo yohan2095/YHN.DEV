@@ -1,43 +1,31 @@
+import React from "react";
+import "./Contact.css";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
-import * as ReactBootStrap from 'react-bootstrap';
+function Contact() {
+  return (
+    <div className='contact'>
+      <h1 className='contact_title'>
+        <span className='contact_index'>04. </span>Contact
+      </h1>
 
-import instagram from '../Images/icons/instagram.svg';
-import linkedin from '../Images/icons/linkedin.svg';
-import whatsapp from '../Images/icons/whatsapp.svg';
-import email from '../Images/icons/email.svg';
-
-
-function ContactComp() {
-    return (
-      <div className="App">
-        
-          <div class="container">
-     <div>
-     <h2 style={{ color : 'white' }} >If you need me</h2>
-     <ReactBootStrap.Card bg="light">
-      <ReactBootStrap.Card.Header></ReactBootStrap.Card.Header>
-        <ReactBootStrap.Card.Body>
-          <ReactBootStrap.Card.Text>
-          <br/>
-          <img src={email} alt="email" id="icons"></img> <p style={{ fontSize : '30px', color : '#001933' }} >yohan@yhn.dev</p>
-          <br/><br/>
-          <a href="https://wa.me/972587197075?text=Welcome%20to%20my%20livechat"><img id="icons" src={whatsapp} alt="Whatsapp Logo" /></a>
-          <a href="https://www.linkedin.com/in/yohan-arejouane-62752b104/"><img id="icons" style={{paddingLeft : '30px'}} src={linkedin} alt="LinkedIn Logo" /></a>
-          <a href="https://www.instagram.com/yhn.dev/"><img id="icons" style={{paddingLeft : '30px'}} src={instagram} alt="Instagram Logo" /></a>
-          </ReactBootStrap.Card.Text>
-        </ReactBootStrap.Card.Body>
-      </ReactBootStrap.Card>
-      </div> 
-
-
-<br/>
-
-
-
-</div>
+      <p className='contact_header'>
+        You have a project for me ? You want to give a feedback ? If you need
+        me, you can contact me at:{" "}
+      </p>
+      <div className='contact_mail'>
+        <MailOutlineIcon className='contact_icon' /> yohan@yhn.dev
       </div>
-    );
-  }
-  
-  export default ContactComp;
-  
+      <div className='contact_phone'>
+        <WhatsAppIcon className='contact_icon' /> (+972) 058-7197075
+      </div>
+      <div className='contact_insta'>
+        <InstagramIcon className='contact_icon' /> @yhn.dev
+      </div>
+    </div>
+  );
+}
+
+export default Contact;

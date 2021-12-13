@@ -1,94 +1,61 @@
-import { Col, Row } from 'react-grid-system';
+import React from "react";
+import "./Service.css";
+import fsd from "../Images/icons/full-stack-developer.svg";
 
-import responsive from '../Images/icons/responsive.svg'
-import ux from '../Images/icons/ux.svg'
-import secured from '../Images/icons/secured.svg'
-import fast from '../Images/icons/fast.svg'
-import writeme from '../Images/icons/writeme.svg'
-import offer from '../Images/icons/offer.svg'
-import ProfileComp from './Profile';
-import wait from '../Images/icons/wait.svg'
+function Service() {
+  return (
+    <div className='service'>
+      <h1 className='service_title'>
+        <span className='service_index'>03. </span>Service
+      </h1>
 
+      <p className='service_header'>
+        You like my work ? You'd like to have your own personal web application
+        ? You need a Web Program to solve a problem you face ?{" "}
+        <span className='marker'>We could work together !</span>
+      </p>
 
+      <table className='service_table'>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th className='marker'>Single page Web App</th>
+            <th className='marker'>Complex Web Program</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Pages</th>
+            <td>1</td>
+            <td>up to 10</td>
+          </tr>
+          <tr>
+            <th>Revisions</th>
+            <td>3</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <th>Delivery time</th>
+            <td>2-4 business days</td>
+            <td>7-14 business days</td>
+          </tr>
+          <tr>
+            <th>Prices</th>
+            <td>100$-250$</td>
+            <td>400$-1500$</td>
+          </tr>
+        </tbody>
+      </table>
+      <p className='service_tableNote'>
+        *Prices and Delivery times depends on the complexity of the project.
+      </p>
+      <p className='service_footer'>
+        Intersted ? Contact me with a description of your project and I will
+        send you an offer within 24 hours.
+      </p>
+      <img src={fsd} alt="full stack developer" className="service_image" />
+    </div>
+  );
+}
 
-
-
-
-function ServiceComp() {
-    
-
-    return (
-      <div className="App">
-          <div id="scrollShow">
-             
-
-              <ProfileComp />
-
-           <h1 style={{ color : 'whitesmoke' }} >My Web Apps are:</h1>
-              
-
-           <br/>
-
-           <div class="container" id="HeaderCont">
-               <Row>
-                   <Col sm={3}>
-                       <h3 style={{ margin : '3%' }} >Responsive</h3>
-                       <img src={responsive} alt="responsive" style={{ margin : '3%', height : 'auto', width : '10vw' }} />
-                   </Col>
-                   <Col sm={3}>
-                       <h3>Secured</h3>
-                       <img src={secured} alt="responsive" style={{ margin : '3%', height : 'auto', width : '10vw'}} />
-                   </Col>
-                   <Col sm={3}>
-                       <h3>Fast</h3>
-                       <img src={fast} alt="responsive" style={{ margin : '3%', height : 'auto', width : '10vw' }} />
-                   </Col>
-                   <Col sm={3}>
-                       <h3>User Friendly</h3>
-                       <img src={ux} alt="responsive" style={{ margin : '3%', height : 'auto', width : '10vw' }} />
-                   </Col>
-               </Row>
-           </div>
-
-           <br/>
-
-           <div class="container" id="ContentCont">
-           <Row>
-                  <Col md={12} style={{ display : 'flex', justifyContent : 'center', alignItems : 'center' }}>
-                  <p style={{fontSize : '140%', margin : '5%' }}>
-                      <h1>Who needs a Full Stack Developer ?</h1>If you own a small business but you cannot afford a large engineering team to 
-                  promote it or to solve some issues that can be solved with programmation, you need a Full Stack Developer for the simple reason 
-                  that he has all the skills(Front-End, Backend, Data) to create what you need alone. Else if you already own an engineering
-                  team, you can use the large range of skills of a Full Stack Developer to create a link between all the stack.
-                  He could work with the Front-End developers as well as the Back-End developers.</p></Col>
-              </Row>
-           </div>
-
-           <br/>
-
-           <div class="container" id="HeaderCont">
-               <Row>
-                   <Col sm={4}>
-                   <h2>Tell me what you need</h2>
-                   <img src={writeme} alt="responsive" style={{ margin : '3%', height : 'auto', width : '10vw' }} />
-                   </Col>
-                   <Col sm={4}>
-                   <h2>Wait until treatment</h2>
-                   <img src={wait} alt="wait" style={{ margin : '3%', height : 'auto', width : '10vw' }} />
-                   </Col>
-                   <Col sm={4}>
-                   <h2>Receive a detailed offer</h2>
-                   <img src={offer} alt="responsive" style={{ margin : '3%', height : 'auto', width : '10vw' }} />
-                   </Col>
-               </Row>
-           </div>
-
-           <br/>
-           
-          </div>
-          
-      </div>
-    );
-  }
-  
-  export default ServiceComp;
+export default Service;

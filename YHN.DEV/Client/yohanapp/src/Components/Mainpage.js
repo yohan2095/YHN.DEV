@@ -1,16 +1,32 @@
-import FooterComp from './Footer';
-import NavBarComp from './Navbar';
+
+import Intro from "./Intro";
+import "./Mainpage.css";
+import NavBarComp from "./Navbar";
+import HomeComp from "./Home";
+import Mywork from "./Mywork";
+import Contact from "./Contact";
+import Service from "./Service";
+import Footer from "./Footer";
 
 function MainPageComp() {
-    return (
-      <div className="App">
+  return (
+    <div className='mainpage'>
+      <NavBarComp />
 
-        <NavBarComp />
+      <HomeComp />
 
-        <FooterComp />
+      <Intro />
 
-      </div>
-    );
-  }
-  
-  export default MainPageComp;
+      <Mywork />
+
+      <Service />
+
+      <Contact />
+
+      <Footer />
+      
+    </div>
+  );
+}
+
+export default MainPageComp;

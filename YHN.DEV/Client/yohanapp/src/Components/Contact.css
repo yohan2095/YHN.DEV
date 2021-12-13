@@ -1,0 +1,54 @@
+.contact {
+  height: 800px;
+}
+
+.contact_title {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20vh;
+  text-align: left;
+}
+
+.contact_index {
+  color: #ccff15;
+  font-size: 20px;
+}
+
+.contact_header {
+    text-align: left;
+    padding-right: 40%;
+    font-size: 16px;
+}
+
+.contact_mail {
+    font-size: 20px;
+    color: lightskyblue;
+    text-align: left;
+}
+
+.contact_phone {
+    font-size: 20px;
+    color: lightskyblue;
+    text-align: left;
+}
+.contact_insta {
+    font-size: 20px;
+    color: lightskyblue;
+    text-align: left;
+}
+
+.contact_icon {
+    color: #ccff15;
+}
+
+@media screen and (max-width: 601px) {
+    .contact_header {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 441px) {
+    .contact_header {
+        padding: 0;
+        width: 360;
+    }
+}

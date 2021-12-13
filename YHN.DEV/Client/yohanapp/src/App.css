@@ -1,116 +1,24 @@
 .App {
   text-align: center;
-  background: #001933;
+  color: ghostwhite;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Mono";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  color: white;
+a {
+  color: lightskyblue;
+  background-color: transparent;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-#profilePic
-{
+#profilePic {
   border-radius: 50%;
 }
 
-#HeaderCont
-{
-  border-radius: 0%;
-  color : whitesmoke;
-  border-style: solid;
-  border-color: transparent;
+#icons:hover {
+  transform: scale(1.1);
 }
 
-#ContentCont
-{
-  background-color: transparent;
-  border-radius: 0%;
-  color : whitesmoke;
-  border-style: solid;
-  border-color: transparent;
-}
-
-#welcome
-{
-  height: 100vh;
-  width: auto;
-  background-color: rgb(36, 36, 36);
-  color : whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sub_div {
-  left: 48%;
-  position: absolute;
-  bottom: 0px;
-}
-
-.scrollD
-{
-  animation: MoveUpDown 2s linear infinite;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-@keyframes MoveUpDown {
-  0%, 100% {
-    bottom: 0;
-  }
-  50% {
-    bottom: 40px;
-  }
-}
-
-#icons:hover
-{
-  transform : scale(1.1);
-}
-
-#YHN
-{
-  height: 100vh;
-  width: 100vw;
-  background-color: #001933;
-  color : aquamarine;
-}
-
-
-#scrollShow
-{
+#scrollShow {
   background-color: #001933;
   background-repeat: no-repeat;
   background-position: center;
@@ -118,12 +26,30 @@
   background-attachment: fixed;
 }
 
-.color-nav
-{
-  background-color: #001933;
+.color-nav {
+  background-color: #1a2330;
 }
 
 .nav-link {
-  color: whitesmoke !important;
-  }
+  color: ghostwhite !important;
+}
 
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.marker {
+  color: #ccff15;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Mono&display=swap");
