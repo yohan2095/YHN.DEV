@@ -16,57 +16,47 @@ function Mywork() {
         <Row className='mywork_projectsRow1'>
           {/* Project 1 */}
           <Col className='mywork_project' md={4}>
-            <h5>YHN Livechat (Whatsapp clone)</h5>
+            <h5>Flight Finder</h5>
             <br />
             <p className='mywork_projectDescription'>
-              Fully functional chat including firestore database. You can create
-              rooms or write into a public one. Whole thing connected to a
-              Firebase server.
-            </p>
-            <p className='mywork_projectStack'>React, Firebase, Firestore </p>
-            <div className='mywork_button'>
-              <Link
-                target='_blank'
-                to={{
-                  pathname: "https://github.com/yohan2095/YHN-Livechat-React",
-                }}
-              >
-                <GitHubIcon className='mywork_buttonGithub' />
-              </Link>
-              <Link
-                target='_blank'
-                to={{ pathname: "https://yhnlivechat.web.app/" }}
-              >
-                <InsertLinkIcon className='mywork_buttonLink' />
-              </Link>
-            </div>
-          </Col>
-          {/* Project 2 */}
-          <Col className='mywork_project' md={4}>
-            <h5>Tinder-Swipe clone</h5>
-            <br />
-            <p className='mywork_projectDescription'>
-              Tinder app design clone including swipe function with users
-              connected to a server stored in a mongodb databse.
+              Flight booking system that allows the user to book a virtual
+              flight including classes and prices. He can also pass a payment
+              with a virtual credit card.
             </p>
             <p className='mywork_projectStack'>
-              <br />
               React, Mongodb, Node, Express{" "}
             </p>
             <div className='mywork_button'>
               <Link
                 target='_blank'
                 to={{
-                  pathname: "https://github.com/yohan2095/Tinder-clone-MERN",
+                  pathname: "https://github.com/yohan2095/Flight-Finder-MERN",
                 }}
               >
                 <GitHubIcon className='mywork_buttonGithub' />
               </Link>
+            </div>
+          </Col>
+          {/* Project 2 */}
+          <Col className='mywork_project' md={4}>
+            <h5>TechStore App</h5>
+            <br />
+            <p className='mywork_projectDescription'>
+              TechStore with products coming from a MongoDB databse trough ASP.NET Core 6.0.
+              Allows the user to add products to a cart and simply pay for them.
+            </p>
+            <p className='mywork_projectStack'>
+              <br />
+              Angular, Mongodb, ASP.NET Core(C#){" "}
+            </p>
+            <div className='mywork_button'>
               <Link
                 target='_blank'
-                to={{ pathname: "https://yhn-tinderclone.web.app/" }}
+                to={{
+                  pathname: "https://github.com/yohan2095/TechStore",
+                }}
               >
-                <InsertLinkIcon className='mywork_buttonLink' />
+                <GitHubIcon className='mywork_buttonGithub' />
               </Link>
             </div>
           </Col>
@@ -130,7 +120,7 @@ function Mywork() {
               add employees or edit them.
             </p>
             <p className='mywork_projectStack'>
-              Angular, Mongodb, Node, Express{" "}
+              Javascript, HTML, CSS, ASP.NET Core{" "}
             </p>
             <div className='mywork_button'>
               <Link
@@ -146,24 +136,28 @@ function Mywork() {
           </Col>
           {/* Project 6 */}
           <Col className='mywork_project' md={4}>
-            <h5>Flight Finder</h5>
+            <h5>YHN Livechat (Whatsapp clone)</h5>
             <br />
             <p className='mywork_projectDescription'>
-              Flight booking system that allows the user to book a virtual
-              flight including classes and prices. He can also pass a payment
-              with a virtual credit card. (currently coding).
+              Fully functional chat including firestore database. You can create
+              rooms or write into a public one. Whole thing connected to a
+              Firebase server.
             </p>
-            <p className='mywork_projectStack'>
-              React, Mongodb, Node, Express{" "}
-            </p>
+            <p className='mywork_projectStack'>React, Firebase, Firestore </p>
             <div className='mywork_button'>
               <Link
                 target='_blank'
                 to={{
-                  pathname: "https://github.com/yohan2095/Flight-Finder-MERN",
+                  pathname: "https://github.com/yohan2095/YHN-Livechat-React",
                 }}
               >
                 <GitHubIcon className='mywork_buttonGithub' />
+              </Link>
+              <Link
+                target='_blank'
+                to={{ pathname: "https://yhnlivechat.web.app/" }}
+              >
+                <InsertLinkIcon className='mywork_buttonLink' />
               </Link>
             </div>
           </Col>

@@ -9,6 +9,10 @@ import firebase from "../Images/icons/firebase.svg";
 import html from "../Images/icons/html.svg";
 import javascript from "../Images/icons/javascript.svg";
 import css from "../Images/icons/css.svg";
+import asp from "../Images/icons/dotnet.svg";
+import angular from "../Images/icons/angular.svg"
+import csharp from "../Images/icons/c-sharp.svg"
+import typescript from "../Images/icons/typescript.svg"
 import profilepic from "../Images/yohan.profile.png";
 import location from "../Images/icons/location.svg";
 
@@ -63,6 +67,10 @@ function Intro() {
               className='intro_descriptionJavascript'
             />
             <img src={css} alt='css' className='intro_descriptionCss' />
+            <img src={asp} alt='asp.net' className='intro_descriptionCss' />
+            <img src={angular} alt='angular' className='intro_descriptionCss' />
+            <img src={csharp} alt='csharp' className='intro_descriptionCss' />
+            <img src={typescript} alt='typescript' className='intro_descriptionCss' />
           </div>
         </p>
       </div>

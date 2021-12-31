@@ -19,7 +19,7 @@ function MainPageComp() {
 
       <Mywork />
 
-      <Service />
+      {/*<Service />*/}
 
       <Contact />
 

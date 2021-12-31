@@ -14,26 +14,21 @@ function NavBarComp() {
       const cHeight = window.innerHeight + 1100;
       window.scrollTo(0, cHeight);
     } else {
-      const cHeight = window.innerHeight + 800;
+      const cHeight = window.innerHeight + 900;
 
       window.scrollTo(0, cHeight);
     }
   };
 
-  const gotoService = () => {
+  const gotoContact = () => {
     if (window.innerWidth < 601) {
       const cHeight = window.innerHeight + 2850;
       window.scrollTo(0, cHeight);
     } else {
-      const cHeight = window.innerHeight + 1600;
+      const cHeight = window.innerHeight + 1900;
 
       window.scrollTo(0, cHeight);
     }
-  };
-  const gotoContact = () => {
-    const cHeight = window.innerHeight + 4000;
-
-    window.scrollTo(0, cHeight);
   };
 
   return (
@@ -57,11 +52,11 @@ function NavBarComp() {
               <ReactBootStrap.Nav.Link onClick={gotoMywork}>
                 <span style={{ color: "#ccff15" }}>02.</span>My work_
               </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link onClick={gotoService}>
+              {/*<ReactBootStrap.Nav.Link onClick={gotoService}>
                 <span style={{ color: "#ccff15" }}>03.</span>Service_
-              </ReactBootStrap.Nav.Link>
+  </ReactBootStrap.Nav.Link>*/}
               <ReactBootStrap.Nav.Link onClick={gotoContact}>
-                <span style={{ color: "#ccff15" }}>04.</span>Contact_
+                <span style={{ color: "#ccff15" }}>03.</span>Contact_
               </ReactBootStrap.Nav.Link>
             </ReactBootStrap.Nav>
           </ReactBootStrap.Navbar.Collapse>
